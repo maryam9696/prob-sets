@@ -1,2 +1,2 @@
-# 151prob-sets
+# prob-sets
 Problem Sets IBE151 HiM
