@@ -43,23 +43,22 @@ def verify_entry(board, row, col):
     col(int): The column [0-2]    
    """
 
-board = [[' ',' ',' '],[' ',' ',' '],[' ',' ',' ']]
-print_board(board) #prints an empty board
-current = None
-moves = 0
-while (moves < 9 and not check_winner(board, current)): #game over?
-    #play
-    current = "X" if (current == None or current == "O") else "O"
-    row, col = map(int, input("Enter the move for " + current +": ").split(","))
-    while not verify_entry(board, row, col):
-        print("Wrong entry. Think again!")
+def play():
+    board = [[' ',' ',' '],[' ',' ',' '],[' ',' ',' ']]
+    print_board(board) #prints an empty board
+    current = None
+    moves = 0
+    while (moves < 9 and not check_winner(board, current)): #game over?
+        #play
+        current = "X" if (current == None or current == "O") else "O"
         row, col = map(int, input("Enter the move for " + current +": ").split(","))
-    update_board(board, row, col, current)
-    print_board(board) #prints the current board
-    moves = moves + 1
+        while not verify_entry(board, row, col):
+            print("Wrong entry. Think again!")
+            row, col = map(int, input("Enter the move for " + current +": ").split(","))
+        update_board(board, row, col, current)
+        print_board(board) #prints the current board
+        moves = moves + 1
 
-if moves < 9: print(current + " WON!")
+    if moves < 9: print(current + " WON!")
 
-
-
-
+play()
