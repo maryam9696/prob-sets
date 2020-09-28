@@ -5,6 +5,5 @@ def get_words():
              "accident", "building", "orchid", "bamboo", "hangman", "orangutan", 
              "gorilla", "mountain", "pineapple", "window", "hurricane", "folder", 
              "border", "literature", "throne", "computer", "binary", "number", "galaxies"]
-    n =  random.randint(0,len(words)-1)
-    return words[n]
+    return random.choice(words)
 
