@@ -31,7 +31,7 @@ ___  a   l  a  x  ___ ___ ___
 z t 
 
 " You have 5 attempts left"
-and update the hanged man drawing. 
+and update the hanged man drawing. You can use the functions provided in the template to draw a hangman. 
 
 You can assume 10 attempts is the maximum number of characters the user can try. If the user runs out of chances, the program prints " You lost! 😢" and then the complete word.
 
