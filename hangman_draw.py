@@ -101,7 +101,7 @@ def print_message(msg):
     turtle.pendown() 
     turtle.write(msg, font=("Arial", 16, "normal", "underline")) 
 
-def draw_hang(stage):
+def hang(stage):
     draw_noose()
     if stage >= 1:
         draw_head()
