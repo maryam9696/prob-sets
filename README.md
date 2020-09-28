@@ -36,6 +36,6 @@ and update the hanged man drawing. You can use the functions provided in the tem
 
 You can assume 10 attempts is the maximum number of characters the user can try. If the user runs out of chances, the program prints " You lost! 😢" and then the complete word.
 
-This assignment is mandatory.  It can be submitted in groups of max 2 students. You can choose your Hangman Group inside Canvas/People (one of the IBE151_2020_Teams_of_two teams).  Start early and don't miss the deadline!
+This assignment is mandatory.  It can be submitted in groups of max 2 students. Choose your Hangman Group inside Canvas/People (one of the IBE151_2020_Teams_of_two teams).  Start early and don't miss the deadline!
 
 
