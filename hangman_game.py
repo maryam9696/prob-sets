@@ -1,5 +1,5 @@
 import words
-import hangman_draw as hang
+import hangman_draw
 
 def hangman():
     N = 10 # max number of attempts
