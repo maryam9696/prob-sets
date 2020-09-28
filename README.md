@@ -48,7 +48,7 @@ In both cases the complete word should be printed.
 The template provided includes a module hangman_draw you can use (not mandatory) to draw a hangman in turtle. To use it, you need to import the module and then call the drawing function as:  
 ```python
 import hangman_draw 
-hangman_draw.draw_hang(failure_attempt) 
+hangman_draw.hang(failure_attempt) 
 #failure_attempt == 0 --> draws the gallows. 
 #failure_attempt == 5 --> draws the whole hangman. 
 ```
